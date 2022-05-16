@@ -43,3 +43,28 @@ header{
 .TopText{
 width:400px;
 }
+.flexContainer{
+display: flex;
+justify-content: center;
+gap: 15px;
+
+}
+.SectionTitle{
+    display: flex;
+    justify-content: center;
+}
+
+div.box > p{
+    font-size: 14px;
+    color: grey;
+    width: 150px;
+    text-align: center;
+    
+   
+}
+.icon{
+    width: 100px;
+}
+.box{
+    justify-content: center;
+}
