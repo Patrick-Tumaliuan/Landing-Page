@@ -54,17 +54,17 @@ gap: 15px;
     justify-content: center;
 }
 
-div.box > p{
+.text{
     font-size: 14px;
     color: grey;
     width: 150px;
     text-align: center;
-    
-   
 }
 .icon{
     width: 100px;
+    justify-content: center;
 }
 .box{
-    justify-content: center;
+    display: flex;
+   justify-content: center;
 }
