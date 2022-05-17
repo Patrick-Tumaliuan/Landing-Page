@@ -1,6 +1,8 @@
+
 body{
     display: flex;
     flex-direction: column;
+    margin: 0%;
 }
 nav{
 display: flex;
@@ -25,15 +27,15 @@ header{
     background-color: #1f2937;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    border: 0;
+    padding: 50px;
 }
 .sakurai{
-    width: 350px;
+    width: 450px;
 }
 .title{
     font-size: 48px;
     color: #F9FAF8;
+    
     
 }
 .subtitle{
@@ -67,4 +69,17 @@ gap: 15px;
 .box{
     display: flex;
    justify-content: center;
+}
+.quote{
+    background-color: #e5e7eb;
+    font-size: 25px;
+    text-align: center;
+    padding: 50px;
+}
+.quote > p{
+    color:#1f2937;
+    font-style: italic;
+}
+section{
+    margin-bottom: 25px;
 }
