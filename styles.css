@@ -35,21 +35,18 @@ header{
 .title{
     font-size: 48px;
     color: #F9FAF8;
-    
-    
 }
 .subtitle{
     font-size: 18px;
     color: #e5e7eb;
 }
 .TopText{
-width:400px;
+width:450px;
 }
 .flexContainer{
-display: flex;
-justify-content: center;
-gap: 15px;
-
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 .SectionTitle{
     display: flex;
@@ -59,7 +56,7 @@ gap: 15px;
 .text{
     font-size: 14px;
     color: grey;
-    width: 150px;
+    width: 125px;
     text-align: center;
 }
 .icon{
@@ -68,6 +65,7 @@ gap: 15px;
 }
 .box{
     display: flex;
+    flex-direction: column;
    justify-content: center;
 }
 .quote{
@@ -81,5 +79,62 @@ gap: 15px;
     font-style: italic;
 }
 section{
-    margin-bottom: 25px;
+    margin: 45px;
+}
+footer{
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+footer > p{
+    color:#e5e7eb
+}
+.blueContainer{
+    display:flex;
+    background-color: #3882f6;
+    padding: 50px;
+    width: 850px;
+    border-radius: 7px;
+    justify-content: space-evenly;
+}
+article{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.signUp{
+display: flex;
+width:150px;
+border: 3px solid;
+border-radius: 12px;
+border-color: white;
+justify-content: center;
+}
+
+.call2 > h5{
+    margin:0;
+    color: #e5e7eb;
+    font-size: 23px;
+}
+
+.call2 > h6{
+    margin:0;
+    color: #e5e7eb;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.signUp > p{
+    color: #F9FAF8;
+}
+.signUpTop{
+background-color: #3882f6;
+width: 125px;
+border-radius:12px;
+display: flex;
+justify-content: center;
+padding: 15px;
+color: #e5e7eb;
 }
